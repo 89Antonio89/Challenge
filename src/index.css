@@ -1,0 +1,19 @@
+html {
+  font-size: calc(10px + 0.390625vw) !important;
+}
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", "sans-serif";
+  display: flex;
+  flex-direction: column;
+}
+
+body h3 {
+  font-weight: bold;
+}
+
+.main {
+  width: 100vh;
+  height: 100vh;
+}

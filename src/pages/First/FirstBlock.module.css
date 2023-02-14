@@ -1,0 +1,21 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+a {
+  text-decoration: none !important;
+  color: grey !important;
+}
+a:hover {
+  color: black !important;
+}
+
+@media (max-width: 600px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+  }
+}

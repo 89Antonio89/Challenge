@@ -1,0 +1,29 @@
+.main {
+  height: 100vh;
+  width: 100vw;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+}
+
+.carousel {
+  width: 30%;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 50%;
+}
+
+@media (max-width: 600px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
+  .carousel {
+    width: 60%;
+  }
+}

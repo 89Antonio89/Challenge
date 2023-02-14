@@ -1,0 +1,9 @@
+.main a:hover,
+span:hover {
+  color: aliceblue !important;
+}
+
+.main,
+span {
+  color: aliceblue !important;
+}
